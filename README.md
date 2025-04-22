@@ -6,14 +6,15 @@ Este projeto é uma calculadora aritmética simples desenvolvida com Vue.js. A a
 
 ```
 vue-calculadora
-├── public
-│   └── index.html          # Ponto de entrada da aplicação
 ├── src
 │   ├── components
 │   │   └── Calculator.vue  # Componente da calculadora
 │   ├── App.vue             # Componente raiz da aplicação
 │   ├── main.js             # Ponto de entrada do JavaScript
 │   └── assets              # Diretório para arquivos estáticos
+├── dist                    # Arquivos gerados após o build
+│   ├── index.html          # Arquivo HTML gerado
+│   └── assets              # Arquivos CSS e JS gerados
 ├── package.json            # Configuração do npm
 ├── vite.config.js          # Configuração do Vite
 └── README.md               # Documentação do projeto
@@ -22,22 +23,22 @@ vue-calculadora
 ## Instalação
 
 1. Clone o repositório:
-   ```
+   ```bash
    git clone <URL_DO_REPOSITORIO>
    ```
 2. Navegue até o diretório do projeto:
-   ```
+   ```bash
    cd vue-calculadora
    ```
 3. Instale as dependências:
-   ```
+   ```bash
    npm install
    ```
 
 ## Uso
 
 Para iniciar a aplicação, execute o seguinte comando:
-```
+```bash
 npm run dev
 ```
 
