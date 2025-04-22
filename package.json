@@ -1,0 +1,26 @@
+{
+  "name": "vue-calculadora",
+  "version": "1.0.0",
+  "description": "A simple arithmetic calculator built with Vue.js",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.0.0",
+    "vue-calculadora": "file:"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.2.4"
+  },
+  "keywords": [
+    "vue",
+    "calculator",
+    "arithmetic"
+  ],
+  "author": "",
+  "license": "MIT"
+}
